@@ -1,0 +1,9 @@
+INTERNAL API
+This is how the socket knows what to do
+This is purely for refrence purposes.
+
+The different functions are mapped to a mnemonic that is then sent to the client (payload)
+-c   Execute Command       execm
+-eF  Execute Script        execs
+-s   Return Reverse Shell  execm
+-ex  Exit                  exit
